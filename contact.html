@@ -19,7 +19,12 @@
 		<h1>
 			COMPANY NAME
 		</h1>
-		<nav class="web">
+		<nav id="web, tablet">
+			<a href="index.html" class="navlink">Home</a>
+			<a href="product.html" class="navlink">Product</a>
+			<a href="http://www.blogger.com" class="navlink">Blog</a>
+		</nav>
+		<nav id="mobile">
 			<a href="index.html" class="navlink">Home</a>
 			<a href="product.html" class="navlink">Product</a>
 			<a href="http://www.blogger.com" class="navlink">Blog</a>
@@ -33,6 +38,8 @@
 		<form action="nowhere.php" method="post">
 			<fieldset>
 				<label>Select topic</label>
+				<span id="noWeb">
+				</span>
 				<select>
 					<option value="general">General inquiries</option>
 					<option value="press">Press relations</option>
@@ -68,6 +75,7 @@
 				value="Submit"
 				/>
 			</section>
+			
 		</form>
 		<footer>
 			2018 - Silvia Mokranova - Inholland 
