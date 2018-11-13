@@ -2,6 +2,14 @@
 
 <html lang = "en">
 	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="manifest" href="img/site.webmanifest">
+		<link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="icon" type="image/svg+xml" sizes="any" href="img/favicon.svg"/>
 		<title>
 			company name
 		</title>
@@ -23,19 +31,30 @@
 		<h1>
 			COMPANY NAME
 		</h1>
-		<nav id="web, tablet">
-			<ul>.
+		<nav id="web">
+			<ul>
 				<li><a href="product.html" class="navlink">Products</a></li>
 				<li><a href="http://www.blogger.com" class="navlink">Blog</a></li>
 				<li><a href="contact.html" class="navlink">Contact</a></li>
 			</ul>
 		</nav>
+		<nav id="tablet">
+			<ul>
+				<li><a href="product.html" class="navlink">Products</a></li>
+				<li><a href="http://www.blogger.com" class="navlink">Blog</a></li>
+				<li><a href="contact.html" class="navlink">Contact</a></li>
+			</ul>
+		</nav>
+		<label id="mobileMenu" for="tog">&#9776;</label>
+		<input type="checkbox" id="tog"/>
 		<nav id="mobile">
 			<a href="product.html" class="navlink">Products</a>
 			<a href="http://www.blogger.com" class="navlink">Blog</a>
 			<a href="contact.html" class="navlink">Contact</a>
 		</nav>
-		<h2>
+		<span>
+		</span>
+		<h2 id="txt1">
 			<span>
 			we are
 			</span>
@@ -44,7 +63,7 @@
 			</span>
 		</h2>
 		<img class="main" id="img1" src="img/product3.png" title="we are entertainment" alt="picture of luigi and mario and they have a dinosaur in between them"/>
-		<h2 class="noTablet">
+		<h2 id="txt2">
 			<span>
 			mobile
 			</span>
@@ -53,7 +72,7 @@
 			</span>
 		</h2>
 		<img class="main" id="img2" id src="img/product8.png" alt="a mobile phone with a game opened on it" title="mobile games"/>
-		<h2 class="noTablet">
+		<h2 id="txt3">
 			<span>
 			board
 			</span>
@@ -62,7 +81,7 @@
 			</span>
 		</h2>
 			<img class="main" id="img3" src="img/product6.png" alt="four board game figurines standing next to each other" title="board games"/>
-		<h2>
+		<h2 id="txt4">
 			<span>
 			console
 			</span>
