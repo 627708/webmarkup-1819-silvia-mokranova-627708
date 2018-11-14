@@ -17,7 +17,6 @@
 		background-size: 100%;
 		background-repeat: no-repeat;
 		height: 60px;
-		font-family:'Allerta Stencil', sans-serif;
 		
 	}
 	/*blue text style*/
@@ -125,7 +124,6 @@
 	}
 	/*company name header*/
 	h1 {
-		font-family:'Allerta Stencil', sans-serif;
 		background: url("../img/companylogoBG.png");
 		height: 150px;
 		background-repeat: no-repeat;
