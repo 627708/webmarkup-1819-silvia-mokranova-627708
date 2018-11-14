@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: *inholland
+Disallow: /inholland
 Sitemap: http://sisamokranova.000webhostapp.com/sitemap.xml
+Sitemap: http://sisamokranova.000webhostapp.com/sitemap.html

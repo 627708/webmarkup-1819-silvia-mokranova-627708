@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
 
-
-<url>
-  <loc>https://sisamokranova.000webhostapp.com/</loc>
-  <lastmod>2018-11-13T18:49:17+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://sisamokranova.000webhostapp.com/product.html</loc>
-  <lastmod>2018-11-13T18:49:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sisamokranova.000webhostapp.com/contact.html</loc>
-  <lastmod>2018-11-13T18:49:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://sisamokranova.000webhostapp.com/index.html</loc>
-  <lastmod>2018-11-13T18:49:17+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+  <url>
+       <loc>https://sisamokranova.000webhostapp.com/</loc>
+       <lastmod>2018-11-14T21:18:50+00:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://sisamokranova.000webhostapp.com/img/site.webmanifest</loc>
+       <lastmod>2018-11-14T21:09:31+00:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sisamokranova.000webhostapp.com/product.html</loc>
+       <lastmod>2018-11-14T21:18:50+00:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sisamokranova.000webhostapp.com/contact.html</loc>
+       <lastmod>2018-11-14T21:18:50+00:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://sisamokranova.000webhostapp.com/index.html</loc>
+       <lastmod>2018-11-14T21:18:50+00:00</lastmod>
+       <changefreq>monthly</changefreq>
+       <priority>0.6400</priority>
+  </url>
 </urlset>
